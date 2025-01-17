@@ -1,0 +1,5 @@
+--quiet
+git+https://github.com/huggingface/transformers.git@main
+git+https://github.com/huggingface/peft.git@main
+librosa
+torch>=2.0.0
