@@ -7,17 +7,15 @@ setup(
     install_requires=[
         "torch>=2.0.0",
         "librosa",
-    ],
-    dependency_links=[
-        "git+https://github.com/huggingface/transformers.git@main#egg=transformers",
-        "git+https://github.com/huggingface/peft.git@main#egg=peft",
+        "transformers @ git+https://github.com/huggingface/transformers.git@main",
+        "peft @ git+https://github.com/huggingface/peft.git@main",
     ],
     author="Seydou DIALLO",
     author_email="sudoping01@gmail.com",
     description="A Whisper-based Automatic Speech Recognition package",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/whisper_asr",
+    url="https://github.com/sudoping01/whisper_asr",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
