@@ -1,0 +1,73 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Build directories
+build/
+dist/
+*.egg-info/
+*.eggs/
+*.manifest
+*.spec
+
+# React specific
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.cache/
+public/*.html
+public/*.json
+public/favicon.ico
+coverage/
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# FastAPI specific
+*.db
+*.sqlite3
+instance/
+*.pyc
+migrations/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Linting
+*.eslintcache
+*.prettierignore
+
+# Testing
+coverage/
+*.cover
+*.coverage
+.cache/
+
+# Static and media files
+staticfiles/
+media/
+
+# Optional npm/yarn lockfiles
+package-lock.json
+yarn.lock
