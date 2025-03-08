@@ -7,7 +7,7 @@ from transformers import (
 )
 
 class WhosperTranscriber:
-    def __init__(self, model_id: str = "sudoping01/whosper-large-v3"):
+    def __init__(self, model_id: str = "CAYTU/whosper-large"):
         """
         Initialize the WhosperTranscriber with a specific model.
         
