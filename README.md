@@ -1,5 +1,5 @@
 ```bash
-  pip install git+https://github.com/sudoping01/whosper.git@v1.0.0
+  pip install git+https://github.com/sudoping01/whosper.git
 ```
 
 ```python
