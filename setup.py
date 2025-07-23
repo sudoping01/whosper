@@ -7,8 +7,8 @@ setup(
     install_requires=[
         "torch>=2.0.0",
         "librosa",
-        "transformers @ git+https://github.com/huggingface/transformers.git@v4.49.0",
-        "peft @ git+https://github.com/huggingface/peft.git@main",
+        "transformers==4.49.0",
+        "peft==0.16.0",
     ],
     author="Seydou DIALLO",
     author_email="sudoping01@gmail.com",
