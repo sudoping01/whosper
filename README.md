@@ -1,4 +1,11 @@
 ```bash
+  pip install whosper 
+```
+```bash
+  uv pip install whosper 
+```
+
+```bash
   pip install git+https://github.com/sudoping01/whosper.git
 ```
 
