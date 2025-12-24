@@ -16,5 +16,5 @@ from whosper import WhosperTranscriber
 transcriber = WhosperTranscriber(model_id = "CAYTU/whosper-large-v2") 
 
 # Transcribe an audio file
-result = transcriber.transcribe_audio("path/to/your/audio.wav")
+result = transcriber.transcribe_audio("path/to/your/audio.wav") # both path and audio_array are accepted as input 
 print(result)
